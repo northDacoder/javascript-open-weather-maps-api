@@ -1,0 +1,36 @@
+body {
+  font-size: 30px; 
+  font-family: American Typewriter;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#results {
+  padding: 0 10px;
+}
+
+#getWeatherSF {font-family: American Typewriter;}
+#resultsSF {
+  padding: 0 10px;
+}
+
+#getWeatherGF {font-family: American Typewriter;}
+#resultsGF {
+  padding: 0 10px;
+}
+
+#getWeatherMSP {font-family: American Typewriter;}
+#resultsMSP {
+  padding: 0 10px;
+}
+
+#getWeatherPA {font-family: American Typewriter;}
+#resultsPA {
+  padding: 0 10px;
+}
+
+.red {color: red;}
+.blue {color: lightBlue;}
+

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.0.css" type="text/css">
+        <link rel="stylesheet" href="css/sfWeather.css" type="text/css">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.0.js"></script>
+        <script type="text/javascript" src="js/sfWeather.js"></script>
+        <title>Weather API</title>
+    </head>
+
+    <body>
+        <div data-role="page" data-theme="b">
+            <div data-role="header" data-theme="b"><h3>Weather</h3></div>
+        
+            <div data-role="content" data-theme="b">
+                <!-- Display waiting for JSON data results -->
+                <div id="results"></div>
+
+                <!-- Get weather for San Francisco,  CA -->
+                <button id="getWeatherSF" >San Francisco, California</button>
+        
+                <!-- Display weather for San Francisco, CA -->
+                <div id="resultsSF"></div>
+
+                <!-- Get weather for Grand Forks, ND -->
+                <button id="getWeatherGF">Grand Forks, North Dakota</button>
+        
+                <!-- Display weather for Grand Forks, ND -->
+                <div id="resultsGF"></div>
+
+                <!-- Get weather for Minneapolis, MN -->
+                <button id="getWeatherMSP">Minneapolis, Minnesota</button>
+        
+                <!-- Display weather for Minneapolis, MN -->
+                <div id="resultsMSP"></div>
+
+                <!-- Get weather for Palo Alto, CA -->
+                <button id="getWeatherPA">Palo Alto, California</button>
+        
+                <!-- Display weather for Palo Alto, CA -->
+                <div id="resultsPA"></div>
+            </div>
+
+            <!--<div data-role="footer" data-position="fixed"><h3></h3></div>-->
+        </div
+    </body>
+
+</html>
+
+
+ <!-- <input type="text" name="city" id="inputCity" placeholder="Enter city here"></input>-->
+        <!-- <p id="cityOutput"></p> -->
