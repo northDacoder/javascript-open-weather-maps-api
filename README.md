@@ -31,4 +31,3 @@ To get started using Open Weather Map's API:
 - [ ] Signup for a free Developer API Key that will let you access the openweathermap API endpoints
 - [ ] Read through the developer docs to figure out what url endpoints you will need to create in order to get the data you are looking to parse 
 
-Simple web-application that utilizes openweather API to display weather data in real-time 
