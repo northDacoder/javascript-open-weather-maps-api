@@ -4,7 +4,7 @@ $(document).ready(function () {
     // Get weather in San Francisco, CA
     $("#getWeatherSF").click(function () {
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?q=san%20francisco",
+            url: "http://api.openweathermap.org/data/2.5/weather?appid=0d6f61476549a0d3895b89a0b31fa966&q=san%20francisco",
             success: function (theWeather) {
                 var kelvin = theWeather.main.temp;
                 var far = 1.8 * (kelvin - 273.15) + 32;
@@ -20,7 +20,7 @@ $(document).ready(function () {
     // Get weather in Grand Forks, ND
     $("#getWeatherGF").click(function () {
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?q=grand%20forks",
+            url: "http://api.openweathermap.org/data/2.5/weather?appid=0d6f61476549a0d3895b89a0b31fa966&q=grand%20forks",
             success: function (theWeather) {
                 var kelvin = theWeather.main.temp;
                 var far = 1.8 * (kelvin - 273.15) + 32;
@@ -41,7 +41,7 @@ $(document).ready(function () {
     // Get weather in Minneapolis, MN
     $("#getWeatherMSP").click(function () {
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?q=minneapolis",
+            url: "http://api.openweathermap.org/data/2.5/weather?appid=0d6f61476549a0d3895b89a0b31fa966&q=minneapolis",
             success: function (theWeather) {
                 var kelvin = theWeather.main.temp;
                 var far = 1.8 * (kelvin - 273.15) + 32;
@@ -62,7 +62,7 @@ $(document).ready(function () {
     // Get weather in Palo Alto, CA
     $("#getWeatherPA").click(function () {
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?q=Palo Alto",
+            url: "http://api.openweathermap.org/data/2.5/weather?appid=0d6f61476549a0d3895b89a0b31fa966&q=Palo Alto",
             success: function (theWeather) {
                 // var weatherString = JSON.stringify(theWeather); 
                 var kelvin = theWeather.main.temp;
@@ -85,7 +85,7 @@ $(document).ready(function () {
         if (event.keyCode === 13) {
             var userCity = $("#inputCity").val();
             console.log(userCity);
-            var urlMessage = "http://api.openweathermap.org/data/2.5/weather?q=";
+            var urlMessage = "http://api.openweathermap.org/data/2.5/weather?appid=0d6f61476549a0d3895b89a0b31fa966&q=";
             urlMessage += userCity;
             console.log("API URL TO CALL: " + urlMessage);
             $("#").trigger('click');
